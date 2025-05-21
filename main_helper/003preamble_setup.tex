@@ -1,0 +1,49 @@
+%% LaTeX2e class for student theses
+%% 003preamble_setup.tex
+%%!TEX root = ./thesis.tex
+%%
+%% Karlsruhe Institute of Technology
+%% Institute for Automation and Applied Informatics (IAI)
+%% IT Methods and Components for Energy Systems (IT4ES) Research Group
+%%
+%% Gökhan Demirel
+%% goekhan.demirel@kit.edu
+%%
+%% Adaptation Version 1.1, 19.02.2024
+
+%% Set PDF metadata
+\setpdf
+
+%% Set the title
+\maketitle
+
+%% The Preamble begins here
+\frontmatter
+
+\cleardoublepage
+\input{main/declaration.tex} %% declaration here
+
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+%% ----------------
+%% |   Abstract   |
+%% ----------------
+
+%% I.For theses written in English, an abstract both in English (abstract_en.tex)
+%% and German (abstract_de.tex) is mandatory.
+%% II.For theses written in German, a German abstract is sufficient. 
+%% The text is included from the following files:
+%% - main/abstract_en.tex
+%% - main/abstract_de.tex
+\includeabstract %% abstract here
+
+\input{main/acknowledgments.tex} %% acknowledgments here
+%% ------------------------
+%% |   Table of Contents  |
+%% ------------------------
+\tableofcontents
+
+\listoffigures
+\listoftables
+\printglossary[type=\acronymtype]

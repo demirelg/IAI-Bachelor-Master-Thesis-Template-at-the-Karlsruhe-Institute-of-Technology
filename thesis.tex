@@ -1,0 +1,64 @@
+%% LaTeX2e class for student theses
+%% thesis.tex
+%% See https://sdq.kastel.kit.edu/wiki/Dokumentvorlagen
+%% Based on SDQ KIT Template by Dr.-Ing. Erik Burger (Version 1.4, 2023-06-19)
+%% 
+%% Karlsruhe Institute of Technology
+%% Institute for Automation and Applied Informatics (IAI)
+%% IT Methods and Components for Energy Systems (IT4ES) Research Group
+%%
+%% Gökhan Demirel
+%% goekhan.demirel@kit.edu
+%%
+%% Adaptation Version 1.3, 10.12.2024
+
+%% Available page modes: oneside, twoside
+%% Available languages: english, ngerman
+%% Available modes: draft, final (see README)
+\documentclass[twoside, english]{iaithesis}
+
+%% ---------------------------------
+%% | Include Titel Information about the thesis  |
+%% ---------------------------------
+\input{main_helper/001titel_thesis.tex}
+% Select faculty
+% \settitle{Engineering}
+\settitle{Informatics}
+%% ---------------------------------
+%% | Load Additonal Packages |
+%% ---------------------------------
+\input{main_helper/002load_packages.tex} % Include the acronym definitions here
+%%Initialising the glossary
+\makeglossaries
+%% ====================================
+%% ====================================
+%% ||                                ||
+%% || Beginning of the main document ||
+%% ||                                ||
+%% ====================================
+%% ====================================
+
+\begin{document}
+\input{main_helper/003preamble_setup.tex} % Include the acronym, acknowledgments, declaration definitions here
+%% -----------------
+%% |   Main part   |
+%% -----------------
+\mainmatter
+\input{main_helper/004acronyms.tex} % Include the acronym definitions here
+\input{main/introduction.tex}
+\input{main/fundamentals.tex}
+\input{main/content.tex}
+\input{main/evaluation.tex}
+\input{main/conclusion.tex}
+%% --------------------
+%% |   Bibliography   |
+%% --------------------
+%% Add entry to the table of contents for the bibliography
+\printbibliography[heading=bibintoc]
+%% ----------------
+%% |   Appendix   |
+%% ----------------
+\appendix
+\input{main/appendix.tex}
+
+\end{document}

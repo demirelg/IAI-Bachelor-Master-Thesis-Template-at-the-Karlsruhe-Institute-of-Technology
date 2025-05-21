@@ -1,0 +1,82 @@
+%% LaTeX2e class for student theses
+%% sections/fundamentals.tex
+%%!TEX root = ./thesis.tex
+%% Based on SDQ KIT Template by Dr.-Ing. Erik Burger (Version 1.4, 2023-06-19)
+%%
+%% Karlsruhe Institute of Technology
+%% Institute for Automation and Applied Informatics (IAI)
+%% IT Methods and Components for Energy Systems (IT4ES) Research Group
+%%
+%% Gökhan Demirel
+%% goekhan.demirel@kit.edu
+%%
+%% Adaptation Version 1.1, 19.02.2024
+
+\chapter{Fundamentals}
+\label{ch:Fundamentals}
+
+This chapter on fundamentals gives an overview of all necessary concepts.
+
+\section{Electrical Power Grids}
+
+Electrical power supply systems exhibit a specific layout, which is adapted to generate electrical power in centralized power plants and distribute it via the transmission network to consumers. The transmission network at highest voltage level links the centralized power plants with multiple branches of local transmission networks at lower voltage levels. These local transmission networks again involve several smaller and more local grids at even lower voltage levels. The finest branches can be found in the distribution grid at lowest voltage levels, where consumers like households can be found. Originally, this layout was destined to operate in an unidirectional way, where, depending on the consumer's current demand, the corresponding amount of power is injected into the electrical grid by power plants to maintain the grid's balance.
+
+To separate parts of text in \LaTeX, please use two line breaks in your source code.
+They will then be set with correct indentation.
+Do \emph{not} use:
+\begin{itemize}
+  \itemsep0em
+  \item \texttt{\textbackslash\textbackslash}
+  \item \texttt{\textbackslash parskip}
+  \item \texttt{\textbackslash vskip}
+\end{itemize} 
+or other commands to manually insert spaces, since they break the layout of this template.
+
+\section{Neural Networks}
+\label{sec:Fundamentals:Neural Networks}
+This template is based on \texttt{biblatex} and \texttt{biber}, which is preferred over the
+outdated Bib\TeX{} software.
+
+A citation: \cite{becker2008a} 
+
+\section{Example: Figures}
+\label{sec:Example:Figures}
+\begin{figure}
+\centering
+\includegraphics[width=4cm]{logos/kitlogo_en_cmyk.pdf}
+\caption{KIT logo}
+\label{fig:kit1logo}
+\end{figure}
+
+A reference: The KIT logo is displayed in \autoref{fig:kit1logo}. 
+(Use \code{\textbackslash autoref\{\}} for easy referencing.) 
+
+\section{Example: Tables}
+The \texttt{booktabs} package offers nicely typeset tables, as in \autoref{tab:NeuralNetworks:table}.
+
+\label{sec:NeuralNetworks:Tables}
+\begin{table}
+\centering
+\begin{tabular}{r l}
+\toprule
+abc & def\\
+ghi & jkl\\
+\midrule
+123 & 456\\
+789 & 0AB\\
+\bottomrule
+\end{tabular}
+\caption{A table}
+\label{tab:NeuralNetworks:table}
+\end{table}
+
+\section{Example: Formula}
+One of the nice things about the Linux Libertine font is that it comes with
+a math mode package.
+\begin{displaymath}
+f(x)=\Omega(g(x))\ (x\rightarrow\infty)\;\Leftrightarrow\;
+\limsup_{x \to \infty} \left|\frac{f(x)}{g(x)}\right|> 0
+\end{displaymath}
+
+%% --------------------
+%% | /Example content |

@@ -1,0 +1,66 @@
+\begin{picture}(1,0.90)%
+	\lineheight{1}%
+	\setlength\tabcolsep{0pt}%
+	\put(0,0){\includegraphics[width=\unitlength]{pdf/01figEuropeanPowerSystem.pdf}}%
+	% Text Oben rechts
+	\put(0.66,0.88){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}\textbf{Transmission Grid}\end{tabular}}}}%
+	\put(0.47,0.84){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small Transmission System Operator (TSO)}\end{tabular}}}}%
+	\put(0.685,0.79){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}\textbf{Distribution Grid}\end{tabular}}}}%
+	\put(0.485,0.75){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small Distribution System Operator (DSO)}\end{tabular}}}}%
+	% Text Mitte rechts
+	\put(0.39,0.67){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small HV/MV Transformer}\end{tabular}}}}%
+	\put(0.39,0.53){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small MV/LV}\end{tabular}}}}%
+	\put(0.76,0.52){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}\textbf{Rural Grid}\end{tabular}}}}%
+	% Text links
+	\put(0.000,0.87){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}Power Import \end{tabular}}}}%
+	\put(0.000,0.83){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}and Export\end{tabular}}}}%
+	\put(0.000,0.73){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}\textbf{HV}\end{tabular}}}}%
+	\put(0.000,0.69){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small Interregional Balancing}\end{tabular}}}}%
+	\put(0.000,0.59){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}\textbf{MV}\end{tabular}}}}%
+	\put(0.000,0.55){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small Intraregional Balancing}\end{tabular}}}}%
+	\put(0.000,0.47){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}\textbf{LV}\end{tabular}}}}%
+	\put(0.000,0.43){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}{\small Local Balancing}\end{tabular}}}}%
+	% Text unten
+	\put(0.030,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}Injection\end{tabular}}}}%
+	\put(0.20,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}Load\end{tabular}}}}%
+	\put(0.33,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}Transformer\end{tabular}}}}%
+	\put(0.62,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}HV\end{tabular}}}}%
+	\put(0.77,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}MV\end{tabular}}}}%
+	\put(0.93,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+				\begin{tabular}[t]{l}LV\end{tabular}}}}%
+	
+	\put(0.105,0.28){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{F}\textit{{\footnotesize 1}
+	}\end{tabular}}}}%
+	\put(0.305,0.40){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{F}\textit{{\footnotesize 2}
+	}\end{tabular}}}}%
+	\put(0.545,0.535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{F}\textit{{\footnotesize 3}
+	}\end{tabular}}}}%
+	
+	\put(0.325,0.33){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{1}}\end{tabular}}}}%
+	\put(0.425,0.26){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{2}}\end{tabular}}}}%
+	\put(0.57,0.215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{3}}\end{tabular}}}}%
+	\put(0.545,0.47){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{4}}\end{tabular}}}}%
+	\put(0.675,0.40){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{5}}\end{tabular}}}}%
+	\put(0.80,0.34){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{6}}\end{tabular}}}}%
+\end{picture}%
+\endgroup%

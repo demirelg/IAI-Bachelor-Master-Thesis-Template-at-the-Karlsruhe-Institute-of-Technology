@@ -1,0 +1,75 @@
+%% LaTeX2e class for student theses
+%% sections/content.tex
+%%!TEX root = ./thesis.tex
+%% Based on SDQ KIT Template by Dr.-Ing. Erik Burger (Version 1.4, 2023-06-19)
+%%
+%% Karlsruhe Institute of Technology
+%% Institute for Automation and Applied Informatics (IAI)
+%% IT Methods and Components for Energy Systems (IT4ES) Research Group
+%%
+%% Gökhan Demirel
+%% goekhan.demirel@kit.edu
+%%
+%% Adaptation Version 1.1, 19.02.2024
+
+\chapter{First Content Chapter}
+\label{ch:FirstContent}
+
+%% -------------------
+%% | Example content |
+%% -------------------
+The content chapters of your thesis should of course be renamed. How many
+chapters you need to write depends on your thesis and cannot be said in general.
+
+Check out the examples theses in the SDQ Wiki:
+
+\url{https://sdq.kastel.kit.edu/wiki/Abschlussarbeit/Studienarbeit}
+
+Of course, you can split this .tex file into several files if you prefer. 
+
+\begin{figure}
+	\centering
+	\def\svgwidth{0.75\columnwidth}
+	\input{figures/eps/01figEuropeanPowerSystem.eps_tex}
+	\caption{Illustration of the European Power System depicting interactions and connections via transformers between the transmission grid, inclusive of extra high voltage, the distribution grid, comprising high-voltage (indicated in red), medium-voltage (shown in yellow), and \gls{LV} (represented in black). Power absorption is shown in red arrows, while power injection into the higher and lower levels is indicated with green arrows~\cite{Demirel2025}.}
+	\label{fig:01-eps-figEuropeanPowerSystem}
+\end{figure}
+
+\section{First Section}
+\label{sec:FirstContent:FirstSection}
+
+\Blindtext
+
+\subsection{A Subsection}
+\label{sec:FirstContent:FirstSubSection}
+
+\Blindtext
+
+\subsubsection{A Subsubsection}
+
+\Blindtext[1]
+
+\section{Second Section}
+\label{sec:FirstContent:SecondSection}
+
+\Blindtext
+
+
+\chapter{Second Content Chapter}
+\label{ch:SecondContent}
+
+\Blindtext
+
+\section{First Section}
+\label{sec:SecondContent:FirstSection}
+
+\Blindtext
+
+\section{Second Section}
+\label{sec:SecondContent:SecondSection}
+
+\Blindtext
+
+%% ---------------------
+%% | / Example content |
+%% ---------------------

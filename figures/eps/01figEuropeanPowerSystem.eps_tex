@@ -1,0 +1,118 @@
+%% Creator: Inkscape 1.3 (0e150ed6c4, 2023-07-21), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '01figEuropeanPowerSystem.eps' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{578.79698181bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+\begin{picture}(0.8,1.00)%
+\lineheight{1}%
+\setlength\tabcolsep{0pt}%
+\put(0,0){\includegraphics[width=\unitlength]{eps/01figEuropeanPowerSystem.eps}}%
+% Text Oben rechts
+\put(0.66,0.88){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}\textbf{Transmission Grid}\end{tabular}}}}%
+\put(0.47,0.84){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small Transmission System Operator (TSO)}\end{tabular}}}}%
+\put(0.685,0.79){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}\textbf{Distribution Grid}\end{tabular}}}}%
+\put(0.485,0.75){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small Distribution System Operator (DSO)}\end{tabular}}}}%
+% Text Mitte rechts
+\put(0.39,0.67){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small HV/MV Transformer}\end{tabular}}}}%
+\put(0.39,0.53){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small MV/LV}\end{tabular}}}}%
+\put(0.76,0.52){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}\textbf{Rural Grid}\end{tabular}}}}%
+% Text links
+\put(0.000,0.87){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}Power Import \end{tabular}}}}%
+\put(0.000,0.83){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}and Export\end{tabular}}}}%
+\put(0.000,0.73){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}\textbf{HV}\end{tabular}}}}%
+\put(0.000,0.69){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small Interregional Balancing}\end{tabular}}}}%
+\put(0.000,0.59){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}\textbf{MV}\end{tabular}}}}%
+\put(0.000,0.55){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small Intraregional Balancing}\end{tabular}}}}%
+\put(0.000,0.47){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}\textbf{LV}\end{tabular}}}}%
+\put(0.000,0.43){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}{\small Local Balancing}\end{tabular}}}}%
+% Text unten
+\put(0.030,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}Injection\end{tabular}}}}%
+\put(0.20,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}Load\end{tabular}}}}%
+\put(0.33,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}Transformer\end{tabular}}}}%
+\put(0.62,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}HV\end{tabular}}}}%
+\put(0.77,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}MV\end{tabular}}}}%
+\put(0.93,0.035){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1}\smash{
+\begin{tabular}[t]{l}LV\end{tabular}}}}%
+
+\put(0.105,0.28){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{F}\textit{{\footnotesize 1}
+}\end{tabular}}}}%
+\put(0.305,0.40){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{F}\textit{{\footnotesize 2}
+}\end{tabular}}}}%
+\put(0.545,0.535){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{F}\textit{{\footnotesize 3}
+}\end{tabular}}}}%
+
+\put(0.325,0.33){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{1}}\end{tabular}}}}%
+\put(0.425,0.26){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{2}}\end{tabular}}}}%
+\put(0.57,0.215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{3}}\end{tabular}}}}%
+\put(0.545,0.47){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{4}}\end{tabular}}}}%
+\put(0.675,0.40){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{5}}\end{tabular}}}}%
+\put(0.80,0.34){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{PCC}{\footnotesize \textit{6}}\end{tabular}}}}%
+\end{picture}%
+\endgroup%

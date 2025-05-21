@@ -1,0 +1,84 @@
+%% LaTeX2e class for student theses
+%% sections/content.tex
+%%!TEX root = ./thesis.tex
+%% Based on SDQ KIT Template by Dr.-Ing. Erik Burger (Version 1.4, 2023-06-19)
+%%
+%% Karlsruhe Institute of Technology
+%% Institute for Automation and Applied Informatics (IAI)
+%% IT Methods and Components for Energy Systems (IT4ES) Research Group
+%%
+%% Gökhan Demirel
+%% goekhan.demirel@kit.edu
+%%
+%% Adaptation Version 1.0, 01.12.2023
+
+\chapter{Introduction}
+\label{ch:Introduction}
+
+%% -------------------
+%% | Example content |
+%% -------------------
+
+This is the template for Bachelor's and Master's theses at \gls{IAI}.
+For more information on the formatting of theses at \gls{IAI}, please refer your advisor.
+
+\section{Spacing and indentation}
+To separate parts of text in \LaTeX, please use two line breaks in your source code.
+They will then be set with correct indentation.
+Do \emph{not} use:
+\begin{itemize}
+  \itemsep0em
+  \item \texttt{\textbackslash\textbackslash}
+  \item \texttt{\textbackslash parskip}
+  \item \texttt{\textbackslash vskip}
+\end{itemize} 
+or other commands to manually insert spaces, since they break the layout of this template.
+
+\section{Example: Citation}
+\label{sec:Introduction:Citation}
+This template is based on \texttt{biblatex} and \texttt{biber}, which is preferred over the
+outdated Bib\TeX{} software.
+
+A citation: \cite{becker2008a} 
+\section{Example: Figures}
+\label{sec:Introduction:Figures}
+\begin{figure}
+\centering
+\includegraphics[width=4cm]{logos/kitlogo_en_cmyk.pdf}
+\caption{KIT logo}
+\label{fig:kit1logo}
+\end{figure}
+
+A reference: The KIT logo is displayed in \autoref{fig:kit1logo}. 
+(Use \code{\textbackslash autoref\{\}} for easy referencing.) 
+
+\section{Example: Tables}
+The \texttt{booktabs} package offers nicely typeset tables, as in \autoref{tab:atable}.
+
+\label{sec:Introduction:Tables}
+\begin{table}
+\centering
+\begin{tabular}{r l}
+\toprule
+abc & def\\
+ghi & jkl\\
+\midrule
+123 & 456\\
+789 & 0AB\\
+\bottomrule
+\end{tabular}
+\caption{A table}
+\label{tab:atable}
+\end{table}
+
+\section{Example: Formula}
+One of the nice things about the Linux Libertine font is that it comes with
+a math mode package.
+\begin{displaymath}
+f(x)=\Omega(g(x))\ (x\rightarrow\infty)\;\Leftrightarrow\;
+\limsup_{x \to \infty} \left|\frac{f(x)}{g(x)}\right|> 0
+\end{displaymath}
+
+%% --------------------
+%% | /Example content |
+%% --------------------

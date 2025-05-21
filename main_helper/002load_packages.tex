@@ -1,0 +1,42 @@
+%% LaTeX2e class for student theses
+%% 002load_packages.tex
+%%!TEX root = ./thesis.tex
+%%
+%% Karlsruhe Institute of Technology
+%% Institute for Automation and Applied Informatics (IAI)
+%% IT Methods and Components for Energy Systems (IT4ES) Research Group
+%%
+%% Gökhan Demirel
+%% goekhan.demirel@kit.edu
+%%
+%% Adaptation Version 1.1, 19.02.2024
+
+%% --------------------------------
+%% | Bibliography                 |
+%% --------------------------------
+
+%% Use biber instead of BibTeX, see README
+\usepackage[citestyle=numeric,style=numeric,backend=biber]{biblatex}
+%\usepackage[backend=biber, style=numeric]{biblatex}
+\addbibresource{main_helper/references.bib} % Path to the .bib file containing your bibliography
+
+%% For example texts -- please remove in the final version
+\usepackage{blindtext}
+%% For creating glossaries and lists of acronyms 
+\usepackage{glossaries}
+%% For creating glossaries and lists of acronyms 
+%%\usepackage[nopostdot,style=super,nonumberlist,toc]{glossaries}
+
+% Define paths to graphics directories
+\graphicspath{{figure/}{figures/}{plots/}}
+
+% draft mode
+\RequirePackage{ifdraft}
+\RequirePackage{ifthen}
+% appendix
+\RequirePackage[toc,title,header]{appendix}
+\noappendicestocpagenum
+% todo-notes
+\RequirePackage[obeyDraft]{todonotes}
+\presetkeys{todonotes}{inline}{}
+\setlength {\marginparwidth }{2cm} 
